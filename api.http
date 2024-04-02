@@ -1,0 +1,11 @@
+POST http://localhost/api/students
+Content-Type: application/json
+
+{
+    "name": "Lorenzo",
+    "age": 32,
+    "enroll": true
+}
+
+### DELETE
+DELETE http://localhost/api/students/6
